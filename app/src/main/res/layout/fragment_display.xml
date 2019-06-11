@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:layout_marginTop="8dp"
+            android:id="@+id/recyclerView">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="700dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="620dp"
+            android:layout_marginStart="335dp"
+            android:id="@+id/add_newTask"
+
+            android:src="@drawable/note_add"
+
+            app:borderWidth="1dp" app:backgroundTint="#F44336"/>
+
+
+
+</RelativeLayout>
+
+
+</layout>
